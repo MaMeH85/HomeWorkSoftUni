@@ -1,0 +1,98 @@
+Console.WriteLine("Obekt Expansion");
+
+
+//string -> Текст
+string PrietiMateriiali = "OtMagazina";
+
+Console.WriteLine("Otmagazina");
+
+---------------------------------------------
+
+// int -> цели числа ( не дробни )
+int Oborot = 0;
+int Trud = 1000;
+int Materiali = 2872;
+
+-------------------------------------------
+
+//double -> реални числа (не цели)
+double pi = 3.14;
+
+Console.WriteLine(pi);
+
+---------------------------------------------
+// char -> един символ     
+char plus = '+';
+char minus = '-';
+char equal = '=';
+
+
+Console.WriteLine("Oborot = Trud + Materiali");
+Console.WriteLine(Oborot = Trud + Materiali);
+
+-----------------------------------------------
+
+int Trud = int.Parse(Console.ReadLine());
+int Materiali = int.Parse(Console.ReadLine());
+
+Console.WriteLine(Trud + Materiali);
+
+----------------------------------------------
+
+int SideA = int.Parse(Console.ReadLine());
+int SideB = int.Parse(Console.ReadLine());
+
+int area = SideA * SideB;
+
+Console.WriteLine(area);
+-------------------------------------------------
+double inch = double.Parse(Console.ReadLine());
+double cm = inch * 2.54;
+
+Console.WriteLine(cm);
+
+-----------------------------------
+
+    //int / int = int
+    //int / double = double
+    //double / int = double
+    //double / double = double
+
+    //ПРИМЕР: Console.WriteLine(4.0 / 3); 
+
+    ----------------------------------------------
+
+    string Mameh = Console.ReadLine();
+Console.WriteLine($"Hello, {Mameh}!");
+
+----------------------------------------------
+
+    string Iliyan = Console.ReadLine();
+string Stanev = Console.ReadLine();
+int age = int.Parse(Console.ReadLine());
+string Sofia = Console.ReadLine();
+
+
+Console.WriteLine($"You are {Iliyan} {Stanev}, a {age}-years old person from {Sofia}.");
+
+----------------------------------------------------------------
+
+    string Mameh = Console.ReadLine();
+int num = int.Parse(Console.ReadLine());
+int hoursPerProject = 3;
+int hours = hoursPerProject * num;
+
+Console.WriteLine($"The architect {Mameh} will need {hours} hours to complete {num} project/s.");
+
+---------------------------------
+    int houses = int.Parse(Console.ReadLine());
+
+double msq = 7.61;
+double calc = msq * houses;
+double disc = calc * 0.18;
+double after = calc - disc;
+
+Console.WriteLine($"The final price is {after} lv.");
+Console.WriteLine($"The discount is {disc} lv.");
+
+------------------------------------------------------------
